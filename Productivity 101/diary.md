@@ -8,8 +8,8 @@ The Diary-Themed To-Do List is a fun, interactive, and motivational task manager
 - ✅ **Mark tasks as completed** and see a fun animation!  
 - 🗑️ **Remove tasks** with a click  
 - 📅 **Set due dates** for better planning  
-- 🔔 **Get reminders** for tasks due today  
-- 🎨 **Choose your own theme color** for personalization  
+- 🔔 **Get reminders** for tasks due today 
+- 🎨 **Choose your own theme color** for personalisation  
 - 💬 **Get motivational messages** to keep you going! 
 
 ## 📸 Preview  
