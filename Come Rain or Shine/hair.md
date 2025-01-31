@@ -10,12 +10,7 @@ An interactive web app that gives you weather updates and tailored hairstyle sug
 - 🎭 **Interactive hover effects** for haircare tips  
 
 ## 📸 Preview  
-![Come Rain or Shine Screenshot](./imageHair/HairTest.png)  
-
-## 🛠️ Tech Stack
-- **HTML** 🏗️  
-- **CSS** 🎨 
-- **JavaScript** 🚀  
+![Come Rain or Shine Screenshot](./imageHair/HairTest.png)   
 
 ## 🌟 How to Use
 1. **Enter a city** in the user input box.

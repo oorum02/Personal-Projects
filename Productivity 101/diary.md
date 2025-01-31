@@ -16,11 +16,6 @@ The Diary-Themed To-Do List is a fun, interactive, and motivational task manager
 ![Productivity 101 Screenshot](./imageDiary/diaryTest.png)  
 
 
-## 🛠️ Tech Stack
-- **HTML** 🏗️  
-- **CSS** 🎨  
-- **JavaScript** 🚀  
-
 ## 🚀 How to Use
 1. Enter your task and press **Enter** to add it  
 2. Select a _due date_ for important tasks  
