@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bring on The Book Dragons</title>
+    <link rel="stylesheet" href="bookDragonsSyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐉 Bring on The Book Dragons 📖</h1>
+        <p>Welcome, book dragon! 🐲 Keep track of your precious books and hoard them wisely.</p>
+
+        <!-- Search and Sort Controls -->
+        <div class="controls">
+            <input type="text" id="search" placeholder="🔍 Search by title or author" oninput="searchBooks()">
+            <select id="sort" onchange="sortBooks()">
+                <option value="title">📖 Sort by Title</option>
+                <option value="author">✍️ Sort by Author</option>
+                <option value="year">📅 Sort by Year</option>
+            </select>
+        </div>
+
+        <!-- Add Book Section -->
+        <h3>✨ Add to Your Hoard</h3>
+        <input type="text" id="title" placeholder="📚 Book Title">
+        <input type="text" id="author" placeholder="✍️ Author">
+        <input type="number" id="year" placeholder="📅 Publication Year">
+        <button onclick="addBook()">🔥 Add Book</button>
+
+        <!-- Book List -->
+        <h3>📚 Your Treasure Hoard</h3>
+        <ul id="bookList"></ul>
+        <div id="bookDetails"></div>
+    </div>
+
+    <!-- Modal for Editing Books -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>✏️ Edit Your Book</h3>
+            <input type="text" id="editTitle" placeholder="Book Title">
+            <input type="text" id="editAuthor" placeholder="Author">
+            <input type="number" id="editYear" placeholder="Publication Year">
+            <button onclick="saveEdit()">💾 Save Changes</button>
+        </div>
+    </div>
+
+    <script src="bookDragons.js"></script>
+</body>
+</html>
