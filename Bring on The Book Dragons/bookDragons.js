@@ -1,4 +1,5 @@
 let library = JSON.parse(localStorage.getItem('library')) || [];
+let selectedBookId = null;
 
 function addBook() {
     const title = document.getElementById('title').value.trim();
@@ -11,7 +12,8 @@ function addBook() {
             title,
             author,
             year,
-            rating: 0 // Default rating
+            rating: 0,
+            review: "" 
         });
         saveLibrary();
         displayBooks();
@@ -31,7 +33,7 @@ function displayBooks(filteredBooks = library) {
             <span><strong>${book.title}</strong> by ${book.author} (${book.year})</span>
             <div>
                 ${generateDragonRating(book.id, book.rating)}
-                <button onclick="viewDetails(${book.id})">🔍 Details</button>
+                <button onclick="openReviewModal(${book.id})">📝 Review</button>
                 <button class="delete-btn" onclick="deleteBook(${book.id})">❌ Delete</button>
             </div>
         `;
@@ -52,6 +54,29 @@ function rateBook(bookId, rating) {
     if (book) {
         book.rating = rating;
         saveLibrary();
+        displayBooks();
+    }
+}
+
+function openReviewModal(bookId) {
+    selectedBookId = bookId;
+    const book = library.find(b => b.id === bookId);
+    if (book) {
+        document.getElementById('reviewText').value = book.review || "";
+    }
+    document.getElementById('reviewModal').style.display = "block";
+}
+
+function closeReviewModal() {
+    document.getElementById('reviewModal').style.display = "none";
+}
+
+function saveReview() {
+    const book = library.find(b => b.id === selectedBookId);
+    if (book) {
+        book.review = document.getElementById('reviewText').value.trim();
+        saveLibrary();
+        closeReviewModal();
         displayBooks();
     }
 }

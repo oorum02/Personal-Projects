@@ -26,8 +26,8 @@ h1 {
     margin-bottom: 20px;
 }
 
-input, select {
-    width: 48%;
+input, select, textarea {
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 8px;

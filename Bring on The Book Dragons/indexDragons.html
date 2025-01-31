@@ -34,15 +34,14 @@
         <div id="bookDetails"></div>
     </div>
 
-    <!-- Modal for Editing Books -->
-    <div id="editModal" class="modal">
+    <!-- Modal for Reviews & Ratings -->
+    <div id="reviewModal" class="modal">
         <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-            <h3>✏️ Edit Your Book</h3>
-            <input type="text" id="editTitle" placeholder="Book Title">
-            <input type="text" id="editAuthor" placeholder="Author">
-            <input type="number" id="editYear" placeholder="Publication Year">
-            <button onclick="saveEdit()">💾 Save Changes</button>
+            <span class="close-btn" onclick="closeReviewModal()">&times;</span>
+            <h3>⭐ Rate and Review</h3>
+            <div id="ratingSection"></div>
+            <textarea id="reviewText" placeholder="Write your review here..."></textarea>
+            <button onclick="saveReview()">💾 Submit Review</button>
         </div>
     </div>
 
