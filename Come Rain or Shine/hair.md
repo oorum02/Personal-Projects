@@ -14,7 +14,7 @@ An interactive web app that gives you weather updates and tailored hairstyle sug
 
 ## 🛠️ Tech Stack
 - **HTML** 🏗️  
-- **CSS** 🎨  
+- **CSS** 🎨 
 - **JavaScript** 🚀  
 
 ## 🌟 How to Use
