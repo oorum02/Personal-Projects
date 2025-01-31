@@ -7,6 +7,6 @@ Welcome to my Personal Projects repository! This is my creative space where I ex
 ## Some Personal Projects I've Done
 > This is Regularly Updated
 
-💡 **Bring on The Book Dragons** – A book collection tracker with rating and review features.
-🌦️ **Come Rain or Shine** – A weather-based Black hair care guide with hairstyle suggestions.
-✏️ **Productivity 101** – A diary-inspired task manager with reminders and custom themes.
+- 💡 **Bring on The Book Dragons** – A book collection tracker with rating and review features.
+- 🌦️ **Come Rain or Shine** – A weather-based Black hair care guide with hairstyle suggestions.
+- ✏️ **Productivity 101** – A diary-inspired task manager with reminders and custom themes.
