@@ -1,0 +1,98 @@
+/* 🌸 Cozy Diary-Themed To-Do List */
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: var(--theme-color, #FCE4EC);
+  color: #5d4037;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 📝 Header */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* 🎯 Motivational message */
+#motivation {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #6d4c41;
+}
+
+/* 📖 Input field */
+.todo-input {
+  width: 90%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #b39ddb;
+  border-radius: 12px;
+  outline: none;
+  text-align: center;
+}
+
+/* 📔 Diary-style list */
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.diary-entry {
+  background: #ffecb3;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.diary-entry input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* ✅ Completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* ❌ Remove button */
+.remove-btn {
+  background: #ff5252;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-btn:hover {
+  background: #d32f2f;
+}
+
+/* 🎭 Fun animation when task is completed */
+.task-done {
+  font-size: 1.5rem;
+  color: green;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeOut 1.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
