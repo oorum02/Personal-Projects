@@ -11,9 +11,9 @@ Bring on The Book Dragons is a digital treasure hoard for book lovers who love c
 - 💾 **Local Storage**: Your hoard is saved even if you refresh the page!
 
 ## 📸 Preview  
-![Book Dragons (Book) Screenshot](./ImageDragon/bookTest.png) 
+![Book Dragons (Book) Screenshot](ImageDragon/bookTest.png) 
 
-![Book Dragons (Review & Rating) Screenshot](./ImageDragon/review+ratingTest.png)  
+![Book Dragons (Review & Rating) Screenshot](ImageDragon/review+ratingTest.png)  
 
 ## 🛠 How to Use
 1. 📚 Enter the book title, author, and publication year.

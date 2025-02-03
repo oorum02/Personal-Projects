@@ -13,7 +13,7 @@ The Diary-Themed To-Do List is a fun, interactive, and motivational task manager
 - 💬 **Get motivational messages** to keep you going! 
 
 ## 📸 Preview  
-![Productivity 101 Screenshot](./imageDiary/diaryTest.png)  
+![Productivity 101 Screenshot](ImageDiary/diaryTest.png)  
 
 
 ## 🚀 How to Use
