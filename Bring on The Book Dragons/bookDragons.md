@@ -21,3 +21,8 @@ Bring on The Book Dragons is a digital treasure hoard for book lovers who love c
 3. 🧐 Use the search bar to find books or sort them as needed.
 4. ✏️ Click "Details" to view more information.
 5. ❌ Click "Delete" to remove a book from your collection.
+
+## 🛠️ Tech Stack
+- **HTML** 🏗️  
+- **CSS** 🎨  
+- **JavaScript** 🚀  
