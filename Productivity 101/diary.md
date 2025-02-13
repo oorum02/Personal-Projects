@@ -23,3 +23,8 @@ The Diary-Themed To-Do List is a fun, interactive, and motivational task manager
 4. Click ❌ to remove a task  
 5. Refresh the page, and your tasks will still be there! 
 > (Thanks, local storage!)  
+
+## 🛠️ Tech Stack
+- **HTML** 🏗️  
+- **CSS** 🎨  
+- **JavaScript** 🚀 
